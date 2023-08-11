@@ -10,20 +10,20 @@ public class Serie extends OfertaEntretenimiento {
         this.valorPorHora = valorPorHora;
     }
 
-    public int getNumeroEpisodios() {
-        return this.cantidadEpisodios;
-    }
-
     public void setNumeroEpisodios(int numeroEpisodios) {
         this.cantidadEpisodios = numeroEpisodios;
     }
 
-    public double getValorPorHora() {
-        return this.valorPorHora;
+    public int getNumeroEpisodios() {
+        return this.cantidadEpisodios;
     }
 
     public void setValorPorHora(double valorPorHora) {
         this.valorPorHora = valorPorHora;
+    }
+
+    public double getValorPorHora() {
+        return this.valorPorHora;
     }
 
     @Override
